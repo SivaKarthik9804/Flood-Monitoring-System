@@ -35,12 +35,15 @@ void loop() {
     lcd.print(distance);
     lcd.print(" cm");
 
-    // Trigger buzzer if water level is high
-    if (distance < 10) {  // Change threshold as needed
+    // Trigger buzzer if water level is less than 30 cm
+    if (distance < 30) {  
         digitalWrite(buzzer, HIGH);
+        delay(500);  // Buzzer stays on for 500ms
+        digitalWrite(buzzer, LOW);
+        delay(500);  // Buzzer off for 500ms (blinking effect)
     } else {
         digitalWrite(buzzer, LOW);
     }
 
-    delay(1000);
+    delay(1000); // Update every second
 }
