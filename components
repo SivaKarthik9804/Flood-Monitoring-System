@@ -1,0 +1,8 @@
+-->  Components Required 
+
+Arduino (ATmega328P)
+Ultrasonic Sensor (HC-SR04)
+16x2 LCD Display (with or without I2C module)
+Buzzer
+Jumper Wires
+Breadboard (Optional)
