@@ -1,0 +1,20 @@
+Component	- Arduino Pin
+HC-SR04 (Ultrasonic Sensor)	
+VCC -	5V
+GND -	GND
+Trig Pin -	D2
+Echo Pin - D3
+LCD Display (Without I2C)	
+VSS	 - GND
+VDD	- 5V
+V0 (Contrast) -	Potentiometer
+RS - D7
+RW	- GND
+E	- D8
+D4	- D9
+D5	- D10
+D6	- 11
+D7	- D12
+Buzzer	
+Positive (+) - D4
+Negative (-) - GND
